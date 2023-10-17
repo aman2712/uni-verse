@@ -68,18 +68,20 @@ export default function Home() {
           <p className="text-white ml-4 font-poppins">Virtual Tour</p>
         </div>
       </div>
-      <div className="mt-12 text-center">
+      <div className="mt-12 text-center flex flex-col items-center">
         <div className="flex">
           <IoIosCall size={20} color="white" />
-          <p className="ml-2 text-white text-sm font-bold">
+          <p className="ml-2 text-white text-sm font-bold text-center">
             Contact us at: 1800-2342-3445
           </p>
         </div>
         <p className="ml-2 text-white text-xs">
           For more details: visit{" "}
-          <Link href="https://uni-verse-omega.vercel.app/">
-            https://uni-verse-omega.vercel.app/
-          </Link>
+          <span className="underline">
+            <Link href="https://uni-verse-omega.vercel.app/">
+              https://uni-verse-omega.vercel.app/
+            </Link>
+          </span>
         </p>
       </div>
     </div>
