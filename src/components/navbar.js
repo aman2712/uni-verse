@@ -28,9 +28,12 @@ function navbar() {
           >
             Home
           </Link>
-          <p className="pr-8 tracking-wide font-medium cursor-pointer transition duration-100 hover:text-red-600 text-white">
+          <Link
+            href="/about"
+            className="pr-8 tracking-wide font-medium cursor-pointer transition duration-100 hover:text-red-600 text-white"
+          >
             About Us
-          </p>
+          </Link>
 
           <p className="pr-8 tracking-wide font-medium cursor-pointer transition duration-100 hover:text-red-600 text-white">
             Sign Up
