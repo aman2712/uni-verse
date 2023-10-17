@@ -76,7 +76,10 @@ export default function Home() {
           </p>
         </div>
         <p className="ml-2 text-white text-xs">
-          For more details: visit url tbd
+          For more details: visit{" "}
+          <Link href="https://uni-verse-omega.vercel.app/">
+            https://uni-verse-omega.vercel.app/
+          </Link>
         </p>
       </div>
     </div>
